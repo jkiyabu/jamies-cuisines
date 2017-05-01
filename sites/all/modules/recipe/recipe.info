@@ -1,0 +1,16 @@
+name = Recipe
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_image
+features[field_base][] = field_ingredient
+features[field_base][] = field_instruction
+features[field_instance][] = node-recipe-body
+features[field_instance][] = node-recipe-field_image
+features[field_instance][] = node-recipe-field_ingredient
+features[field_instance][] = node-recipe-field_instruction
+features[node][] = recipe
