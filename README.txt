@@ -1,6 +1,6 @@
 Jamie's Recipe Blog
 ---------------------
-A practice drupal site where Jamie can post and blog about recipes.
+A practice drupal site where Jamie can post and blog about her recipes.
 
 
 Installation
