@@ -2,7 +2,7 @@
 
 function contact_alter_form_alter(&$form, &$form_state, $form_id) {
     if ($form_id == 'contact_site_formsearch_block_form') {
-        print '<prev>';
+        print '<pre>';
         print_r($form);
         print '</pre>';
     }
