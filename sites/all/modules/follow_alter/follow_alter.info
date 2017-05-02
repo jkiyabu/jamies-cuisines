@@ -1,0 +1,4 @@
+name = Follow alter
+description = adds sites to follow module
+package = My modules
+core = 7.x
