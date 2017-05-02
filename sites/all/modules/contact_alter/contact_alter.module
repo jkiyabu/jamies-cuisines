@@ -1,9 +1,15 @@
 <?php
 
 function contact_alter_form_alter(&$form, &$form_state, $form_id) {
+  print_r($form_id);
     if ($form_id == 'contact_site_form') {
         $form['copy'] = [];
         $form['subject'] = [];
+    } else if ($form_id == 'recipe_node_form' && $form['uid']['#value'] == 3) {
+        print '<pre>';
+        print_r($form);
+        print '</pre>';
+        $form['author'] = [];
+        $form['comment_settings']['comment']['#default_value'] = 1;
     }
-    print_r($form_id);
 }
