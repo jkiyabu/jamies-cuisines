@@ -1,0 +1,4 @@
+name = Contact form alter
+description = alter the contact form
+package = My modules
+core = 7.x
