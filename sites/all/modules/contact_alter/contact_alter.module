@@ -6,9 +6,9 @@ function contact_alter_form_alter(&$form, &$form_state, $form_id) {
         $form['copy'] = [];
         $form['subject'] = [];
     } else if ($form_id == 'recipe_node_form' && $form['uid']['#value'] == 3) {
-        print '<pre>';
-        print_r($form);
-        print '</pre>';
+        // print '<pre>';
+        // print_r($form);
+        // print '</pre>';
         $form['author'] = [];
         $form['comment_settings']['comment']['#default_value'] = 1;
     }
