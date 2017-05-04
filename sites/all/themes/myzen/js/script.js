@@ -24,3 +24,9 @@
   };
 
 })(jQuery, Drupal, this, this.document);
+
+jQuery(document).ready(function($) {
+  $('p').click(function(){
+    alert('I am a p!');
+  });
+});
